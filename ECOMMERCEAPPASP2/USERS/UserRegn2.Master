@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UserRegn2.master.cs" Inherits="ECOMMERCEAPPASP2.UserRegn2" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> </title> 
+    <link rel="stylesheet" href="CssReg.css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="wrapper">
+    <h2>Registration</h2>
+        
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <div class="text">
+        <h3>Already have an account? <a href="UserLogin.aspx">Login now</a></h3>
+        </div>
+         </form>
+     </div>
+    
+   
+</body>
+</html>
